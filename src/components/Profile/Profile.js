@@ -5,7 +5,7 @@ import s from './Profile.module.scss'
 const Profile = ({ username, tag, avatar, location, stats}) => {
 return (
 <div className={s.Profile}>
-<div class={s.Description}>
+<div className={s.Description}>
   <img
     src={avatar}
     alt="User avatar"
@@ -25,8 +25,8 @@ return (
     <span className={s.Quantity}>{stats.views}</span>
   </li>
   <li className={s.Item}> 
-    <span class={s.Label}>Likes</span>
-    <span class={s.Quantity}>{stats.likes}</span>
+    <span className={s.Label}>Likes</span>
+    <span className={s.Quantity}>{stats.likes}</span>
   </li>
 </ul>
 </div>
