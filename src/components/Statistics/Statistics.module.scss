@@ -1,0 +1,28 @@
+
+.Statistics {
+   background-color: #ffffff;
+}
+.Title {
+   padding: 20px 0;
+   margin: 0 auto;
+   text-align: center;
+   font-weight: 500;}
+
+.List{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 0;
+   margin-bottom: 0;
+
+   padding: 0;
+}
+.Item{  display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: solid 1px rgba(111, 114, 111, 0.1);
+   padding: 10px;
+   width: 100%;}
+
