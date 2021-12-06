@@ -2,12 +2,11 @@ import React from 'react'
 import Section from 'components/Section/Section';
 import user from 'components/Profile/user.json';
 import data from './components/Statistics/data.json';
-// import transactions from'./components/TransactionHistory/transactions.json';
+import transactions from'./components/TransactionHistory/transactions.json';
 import friends from './components/FriendList/friends.json';
 import Profile from 'components/Profile/Profile';
-
 import FriendList from './components/FriendList/FriendList';
-// import TransactionHistory from './components/TransactionHistory/TransactionHistory';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 import Statistics from './components/Statistics/Statistics';
 
 export default function App() {
@@ -27,9 +26,9 @@ export default function App() {
     <Section>
       <FriendList friends={friends} />
     </Section>
-   {/*  <Section>
-       <TransactionHistory items={transactions} />;
-     </Section>  */}
+    <Section>
+       <TransactionHistory items={transactions} />
+     </Section> 
     </>
   )
 }
